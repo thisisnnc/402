@@ -1,0 +1,201 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ติดตามสถานะ กรอ.รายเก่า</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #acbdcf;
+        }
+        
+        .satatus {
+            font-size: 20px;
+            padding-left: 50px;
+        }
+        
+        .form-check-input {
+            margin-left: 30px;
+        }
+        
+        .text-uppercase {
+            margin-left: 60px;
+            color: rgba(44, 49, 58);
+        }
+        
+        .v {
+            width: 15px;
+        }
+        
+        h5 {
+            color: black;
+        }.k{
+            color: rgb(44, 49, 58);
+        }.nav-link{
+            color: rgba(44, 49, 58);
+            
+        }
+    </style>
+</head>
+
+<body>
+   
+     <!-- bar -->
+ <div class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light "style="background : transparent;"id='nav'>
+        
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="images/1.png "  alt="" width="50" height="50">
+              </a>
+          <a class="navbar-brand" href="student.php">หน้าหลัก</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="ตารางกำหนดการ.html">ตารางกำหนดการ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="สร้างคำร้อง.php">สร้างคำร้อง</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ประกาศรายชื่อผู้กู้.html">ประกาศรายชื่อผู้กู้</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="ติดตามสถานะกรอรายเก่า.html">ติดตามสถานะ</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link " href="logout.php">ออกจากระบบ</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>   
+      
+    </div>
+
+<!-- add some javascript code -->
+
+<script type="text/javascript">
+   
+    var  nav = document.getElementById('nav');
+  
+  window.onscroll = function(){
+
+      if (window.pageYOffset >100) {
+
+          nav.style.background = "#ffffffff";
+        
+      }
+      else{
+          nav.style.background = "transparent";
+          nav.style.boxShadow = "none";
+      }
+  }
+
+</script>
+
+
+
+
+    <!-- slide pic -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+
+
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+     
+
+        </ol>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/picศกร1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="text-uppercase">ติดตามสถานะ</h2>
+                    <p class="k">ระบบติดตามสถานะการกู้ยืมเงิน กรอ. และกยศ. มหาวิทยาลัยธรรมศาสตร์</p>
+                </div>
+            </div>
+            
+
+        </div>
+        
+    </div>
+    <!--สีสถานะ-->
+
+    <div class="a">
+        <div class="container">
+            <p></p>
+            <h5>ติดตามสถานะ กรอ. รายเก่า</h5>
+        </div>
+        <div class="container">
+            <p class="text-uppercase"> <img class="v"> ยังไม่ได้ทำรายการ</p>
+            <p class="text-uppercase"> <img class="v"> รอการตรวจสอบ </p>
+            <p class="text-uppercase"> <img class="v"> ตรวจสอบเสร็จสิ้น </p>
+            <p></p>
+        </div>
+    </div>
+
+    <p></p>
+    <!--สถานะ-->
+
+
+
+
+    <!--ข้อมูล-->
+    <div class="b">
+        <div class="container">
+            <p></p>
+            <h5>ตรวจสอบเอกสารก่อนส่งใบสมัครกู้ยืมเงินเพื่อการศึกษา</h5>
+        </div>
+        <div class="container">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> แบบคำขอกู้ยืมเงิน ที่สมัครผ่านระบบ e-studentloan พร้อมติดรูปถ่าย สวมใส่ชุดนักศึกษา ขนาด 1.5 นิ้ว จำนวน 1 รูป</p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> ใบเกรดพิมพ์จาก www. reg.tu.ac.th </p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> เอกสารรับรองรายได้/หนังสือรับรองเงินเดือน/สลิปเงินเดือน ใช้เฉพาะผู้ที่ประสงค์กู้ยืมค่าครองชีพ</p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> สำเนาบัตรประจำตัวข้าราชการ/เจ้าหน้าที่รัฐ ฯลฯ ที่เซ็นแบบยืนยัน ใช้เฉพาะผู้ที่ประสงค์กู้ยืมค่าครองชีพ</p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> สำเนาบัตรประจำตัวประชาชนของนักศึกษา จำนวน 1 ชุด</p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> สำเนาสัญญาหรือสำเนาแบบยืนยันค่าเล่าเรียน จำนวน 1 ชุด ขอได้ที่ ศกร.</p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> สำเนาออกเอกสารการเปลี่ยนชื่อ - สกุล(ถ้ามี)</p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> สมุดฟอร์มบันทึกกิจกรรมอาสา หรือ บริการสาธารณะ และเข้าร่วมกิจกรรมไม่น้อยกว่า 6 กิจกรรม/36 ชั่วโมง</p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> ฟอร์มแสดงความคิดเห็นของอาจารย์ที่ปรึกษา</p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <p class="text-uppercase"> <img class="v"> สำเนาใบหน้าเลขที่บัญชีสมุดคู่ฝากธนาคารกรุงไทยฯ จำนวน 1 ชุด</p>
+
+
+            <p></p>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

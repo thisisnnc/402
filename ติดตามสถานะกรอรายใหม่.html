@@ -1,0 +1,381 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tracking System For e-Studentloan In Thammasat University</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <style>
+            body {
+                background-color: #acbdcf;
+            }
+            .button {
+                background-color: #283943;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: auto;
+                cursor: pointer;
+                border-radius: 12px;
+            }
+        .card {
+            color: white;
+            text-align: center;
+            height: auto;
+            margin-top: 30px;
+            margin-left: 130px;
+            width: 200px;
+            font-size: 17px;
+         
+            background-color: #4d585e4f;
+            
+        }
+        .text{
+            text-align: center;
+            margin-top: 50px;  
+        text-decoration: underline;
+        color:rgb(3, 3, 3); 
+            font-size: 20px;
+            margin: center;
+        }
+        .p{
+          font-size: 16px;
+          color:rgb(3, 3, 3); 
+        }
+      
+        .login_btn {
+            background-color: #2774a7e8;
+            border: none;
+            color: rgb(248, 245, 245);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            margin-left: 130px;
+            display: inline-block;
+            font-size: 15px;
+            border: center;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+       
+       .form-control{
+         margin-top: 24px;
+        font-size: 17px;
+       }
+       .card1{
+        background-color:  #2774a72c;
+        margin-top: 20px;
+        font-size: 17px;
+            width: 600px;
+           
+            border-radius: 20px;
+       }.h{
+        margin-left: 100px;
+       }.radio-inline{
+        color:rgb(3, 3, 3); 
+        font-size: 15px;
+       }.control-label{
+        color:rgb(3, 3, 3); 
+        font-size: 15px;
+        padding-right: 30px;
+       
+       }.form {
+            padding-left: 20px;
+            padding-right: 10px;
+        }.e{
+            font-size: 15px;
+            color:rgb(3, 3, 3); 
+        }.a { 
+           padding-left: 120px; 
+        }.c{
+            text-align: center;
+            
+            padding-left: 120px;
+        }.input-md{
+            padding-right: 30px;
+        } .radio{
+            padding-right: 30px; 
+        }.p1{
+            font-size: 18px;
+            color:rgb(3, 3, 3); 
+        }.text1 {
+          margin-left: 60px;
+          color:rgb(3, 3, 3); 
+        }.form-check-input{
+          margin-left: 30px;
+        } .v{
+       width: 15px;
+     }.text3{
+         padding-left: 50px;
+
+     }.text-uppercase{
+            color: rgb(44, 49, 58);
+        }.k{
+            color: rgb(44, 49, 58);
+        }.nav-link{
+            color: rgb(44, 49, 58);
+        }
+       
+        </style>
+    </head>
+    
+    <body>
+       <!-- bar -->
+       <div class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light "style="background : transparent;"id='nav'>
+            
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="images/1.png "  alt="" width="50" height="50">
+                  </a>
+             
+              <div class="collapse navbar-collapse" id="navbarNav">
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="จนทหน้าหลัก.html">หน้าหลัก</a>
+                      </li>
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="จนทตารางกำหนดการ.html">ตารางกำหนดการ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="จนทประกาศรายชื่อ.html">ประกาศรายชื่อผู้กู้</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="ติดตามสถานะกรอรายใหม่.html">ติดตามสถานะ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="จนทคำนวณเงิน.html">สรุปรายงานการกู้ยืม</a>
+                      </li>
+                </ul>
+              </div>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link " href="#">ออกจากระบบ</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>   
+        </div>
+  
+            <!-- add some javascript code -->
+
+   <script type="text/javascript">
+   	
+    var  nav = document.getElementById('nav');
+  
+  window.onscroll = function(){
+
+      if (window.pageYOffset >100) {
+
+          nav.style.background = "#ffffffff";
+        
+      }
+      else{
+          nav.style.background = "transparent";
+          nav.style.boxShadow = "none";
+      }
+  }
+
+
+
+</script>
+    
+        <!-- slide pic -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                
+    
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/picศกร1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="text-uppercase">ติดตามสถานะ</h2>
+                        <p class="k"> Tracking System For e-Studentloan In Thammasat University</p>
+                    </div>
+                </div>
+           
+    
+            </div>
+          
+        </div>
+    
+      
+    
+        <!--ติดตามสถานะ-->
+        <div class="container">
+        
+            <div class="d-flex justify-content-center h-70">
+                <div class="card1">
+                    <div class="card-body">
+                        <form>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-namestudent"></i></span>
+                                </div>
+                                <input type="text" class="form-control form-control-lg" placeholder="ค้นหาจาก รหัสนักศึกษา หรือ ชื่อ-นามสกุล">
+                            </div>
+                          
+          
+              <div class="h">
+                <div class="row form-group">
+                  <p></p>
+                    <label class="col-md-4 control-label" for="e-student_type">ประเภทกองทุน</label>
+                    <div class="col-md-6">
+                        <label class="radio-inline"><input type="radio" name="e-student_type" value="Farmer" checked>กรอ.รายเก่า</label>
+                        <label class="radio-inline"><input type="radio" name="e-student_type" value="Supplier">กรอ.รายใหม่</label>
+                        <label class="radio-inline"><input type="radio" name="e-student_type" value="Supplier">กยศ.รายเก่า</label>
+                        <label class="radio-inline"><input type="radio" name="e-student_type" value="Supplier">กยศ.รายใหม่</label>
+                    </div>
+                    <div class="col-md-4 panel panel-heading" style="display:none; color:red" id="contact_error"></div>
+                </div>
+            </div>
+          
+                            <div class="col-md-9 text-center">
+                                <input type="submit" value="ติดตามสถานะ" class="btn login_btn  ">
+                             
+                            </div>
+                            <p></p> 
+                            
+                        </form>
+                    </div>
+        </div>
+    </div>
+  </div>
+  </div>
+
+       
+  <p></p>
+    <!--ข้อมูลติดตามสถานะ-->        
+    <div class="b">
+        <div class="container">
+         <p></p>
+         <h5>ข้อมูลของนักศึกษาที่ประสงค์จะกู้ยืมเงิน</h5>
+            </div>
+            <div class="container">
+                <div class="row form-group">
+            
+                    <label class="text1" for="e-student_type">ประเภทกองทุน : </label>
+                    <label class="e" for="e-student_type1">กรอ.รายใหม่</label>
+                </div>
+        
+                <div class="row form-group">
+                    <label class="text1" for="first_name">รหัสนักศึกษา : </label>
+                    <label class="e" for="e-student_type2">-</label>
+                </div>
+        
+                <div class="row form-group">
+                    <label class="text1" for="first_name">ชื่อจริง : </label>
+                    <label class="e" for="e-student_type3"> -</label> 
+                   
+                </div>
+                <div class="row form-group">
+            
+                    <label class="text1" for="first_name"> นามสกุล : </label>
+                    <label class="e" for="e-student_type4">-</label>
+                </div>
+        
+                <div class="row form-group">
+                    <label class="text1" for="first_name">เกรดเฉลี่ย : </label>
+                    <label class="e" for="e-student_type5">-</label>
+                </div>
+        
+                <div class="row form-group">
+                    <label class="text1" for="first_name">รายได้ผู้ปกครอง/ปี(บาท) : </label>
+                    <label class="e" for="e-student_type6">-</label>
+                    <label class="e" for="e-student_type"> บาท </label>
+                </div>
+                
+                <div class="row form-group">
+                    <label class="text1" for="first_name">จำนวนจิตอาสา(ชั่วโมง) : </label>
+                    <label class="e" for="e-student_type7">- </label>
+                    <label class="e" for="e-student_type"> ชั่วโมง </label>
+                </div>
+        
+                <div class="row form-group">
+                    <label class="text1" for="first_name">เบอร์โทร : </label>
+                    <label class="e" for="e-student_type8">-</label>
+                </div>
+             
+                <div class="row form-group">
+                    <label class="text1" for="first_name">ค่าเล่าเรียน : </label>
+                    <label class="e" for="e-student_type9">-</label>
+                    <label class="e" for="e-student_type"> บาท </label>
+                </div>
+            
+                <div class="row form-group">
+                    <label class="text1" for="first_name">ค่าครองชีพ: </label>
+                    <label class="e" for="e-student_type10">-</label>
+                    <label class="e" for="e-student_type"> บาท </label>
+                </div>
+              <p></p>
+            </div>
+      </div>
+ </div>
+    <!--สถานะ-->
+
+  
+    <!--ข้อมูลสถานะ-->
+       
+    <div class="b">
+        <div class="container">
+         <p></p>
+         <h5>ตรวจสอบเอกสารก่อนส่งใบสมัครกู้ยืมเงินเพื่อการศึกษา</h5>
+            </div>
+            <div class="container">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1">  แบบคำขอกู้ยืมเงิน TU1 พร้อมติดรูปถ่าย สวมใส่ชุดนักศึกษา ขนาด 1.5 นิ้ว จำนวน 1 รูป</p>
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1">  ใบเกรดพิมพ์จาก www. reg.tu.ac.th นศ.ชั้นปีที่ 1/2562 ใช้สำเนาใบเกรด มัธยมศึกษาตอนปลาย </p>
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1">  เอกสารรับรองรายได้ (พร้อมทั้งสำเนาบัตรประตัวตัวข้าราชการ/รัฐวิษาหกิจฯ ของผู้รับรองรายได้) เฉพาะ นศ.ที่ประสงค์จะกู้ยืม)</p>
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1">  สำเนาบัตรประจำตัวประชาชน และสำเนาทะเบียนบ้านของ นศ. และบิดามารดา หรือผู้ปกครอง จำนวน 1 ชุด</p>
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1"> สำเนาใบเปลี่ยนชื่อ-สกุล(ถ้ามี)</p>
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1"> แผนผังแสดงที่ตั้งของบ้าน/ที่อยู่อาศัยของ บิดา,มารดา หรือผู้ปกครอง</p>
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1">  ภาพถ่ายบ้านหรือที่พักของ บิดาหรือมารดาหรือผู้ปกครอง ของผู้กู้ยืม</p>
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1">  สำเนาใบมรณะบัตรของบิดา/มาดา(ถ้ามี)</p>
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1">  ฟอร์มแสดงความคิดเห็นของอาจารย์ที่ปรึกษา(นศ.ชั้นปีที่1/2562 ไม่ต้องแนบฟอร์มนี้)</p>
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <p class="text1">  สำเนาใบหน้าเลขที่บัญชีสมุดคู่ฝากธนาคารกรุงไทยฯ จำนวน 1 ชุด</p>
+              <input class="form-check-input" type="checkbox" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+              <p class="text1">  เอกสารอื่นๆ</p>
+            
+              <p></p>
+            </div>
+      </div>
+ </div>
+
+ <div class="d">
+    <div class="form-group row">
+        <div class="col-md-7 text-center">
+            <button class="btn btn-warning" type="button" onclick=history.go(-1)> รอการตรวจสอบ </button>
+            <button id="save" name="save" class="btn btn-large btn-success"> ตรวจสอบเสร็จสิ้น</button>
+
+        </div>
+    </div>
+</div>
+
+
+  
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    
+    </body>
+    
+    </html>
